@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title id="page-title">Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <div class="nav-logo" id="nav-logo-text">PORTFOLIO</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+      </ul>
+      <a class="btn-resume" id="nav-resume-btn" href="#" target="_blank">↓ Resume</a>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO SECTION
+  ═══════════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag" id="hero-tag">OPEN TO WORK</p>
+      <h1 id="hero-name">YOUR NAME</h1>
+      <p class="hero-subtitle" id="hero-subtitle">Full Stack Developer · Data Engineer · Problem Solver</p>
+      <p class="hero-desc" id="hero-desc">Building scalable systems and intuitive products. Based in Hyderabad, India.</p>
+      <div class="hero-cta">
+        <a class="btn-primary" id="hero-resume-btn" href="#" target="_blank">⬇ Download Resume</a>
+        <a class="btn-outline" href="#about">Explore My Work ↓</a>
+      </div>
+      <div class="hero-stats" id="hero-stats-container"></div>
+    </div>
+    <div class="hero-scroll-hint">scroll down</div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       ABOUT ME
+  ═══════════════════════════════════════════ -->
+  <section id="about">
+    <div class="section-label">01 — About Me</div>
+    <div class="about-grid">
+      <div class="about-photo-wrap">
+        <img id="about-photo" src="assets/photo.jpg" alt="Profile Photo" onerror="this.src='https://placehold.co/400x500/1a1a1a/e50914?text=Your+Photo'"/>
+        <div class="photo-tag" id="about-location-tag">📍 Hyderabad, India</div>
+      </div>
+      <div class="about-text">
+        <h2 id="about-heading">Hey, I'm <span class="red" id="about-name-span">Your Name</span></h2>
+        <div class="about-body" id="about-body"></div>
+        <div class="about-links" id="about-links-container"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       EXPERIENCE TIMELINE
+  ═══════════════════════════════════════════ -->
+  <section id="experience">
+    <div class="section-label" id="exp-section-label">02 — Work Experience</div>
+    <div class="timeline" id="timeline-container"></div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       PROJECTS
+  ═══════════════════════════════════════════ -->
+  <section id="projects">
+    <div class="section-label" id="proj-section-label">03 — Projects</div>
+    <div class="section-title-row">
+      <h2 id="proj-heading">Things I've Built</h2>
+    </div>
+    <div class="projects-grid" id="projects-grid"></div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CERTIFICATIONS
+  ═══════════════════════════════════════════ -->
+  <section id="certifications">
+    <div class="section-label" id="cert-section-label">04 — Certifications</div>
+    <h2 id="cert-heading">Credentials & Licenses</h2>
+    <div class="cert-grid" id="cert-grid"></div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       EDUCATION / DEGREE
+  ═══════════════════════════════════════════ -->
+  <section id="education">
+    <div class="section-label" id="edu-section-label">05 — Education</div>
+    <h2 id="edu-heading">Academic Background</h2>
+    <div class="edu-grid" id="edu-grid"></div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       HOBBIES
+  ═══════════════════════════════════════════ -->
+  <section id="hobbies">
+    <div class="section-label" id="hobbies-section-label">06 — Beyond Work</div>
+    <h2 id="hobbies-heading">What I Do When I'm Not Coding</h2>
+    <div class="hobbies-grid" id="hobbies-grid"></div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo" id="footer-logo-text">PORTFOLIO</div>
+      <p id="footer-tagline">Let's build something great together.</p>
+      <div class="footer-links" id="footer-links-container"></div>
+      <p class="footer-copy" id="footer-copy-text">© 2025 Your Name. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

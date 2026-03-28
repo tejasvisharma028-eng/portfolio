@@ -1,0 +1,291 @@
+/* ════════════════════════════════════════════════════════════════════
+   ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗     ██╗███████╗
+  ██╔════╝██╔═══██╗████╗  ██║██╔════╝██║██╔════╝     ██║██╔════╝
+  ██║     ██║   ██║██╔██╗ ██║█████╗  ██║██║  ███╗    ██║███████╗
+  ██║     ██║   ██║██║╚██╗██║██╔══╝  ██║██║   ██║    ██║╚════██║
+  ╚██████╗╚██████╔╝██║ ╚████║██║     ██║╚██████╔╝    ██║███████║
+   ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝     ╚═╝ ╚═════╝     ╚═╝╚══════╝
+
+  HOW TO EDIT THIS PORTFOLIO
+  ━━━━━━━━━━━━━━━━━━━━━━━━━━
+  This is the ONLY file you need to edit daily.
+  All website content is pulled from this config object.
+
+  GOOGLE DRIVE LINKS:
+  1. Upload your file to Google Drive
+  2. Right-click → Share → "Anyone with the link can view"
+  3. Copy link and paste below (replace the placeholder URLs)
+
+  IMAGES:
+  - Place images inside the /assets/ folder in this project
+  - Reference them as "assets/filename.jpg"
+
+  ADDING A NEW ITEM:
+  - Copy any existing { ... } block in an array
+  - Add a comma after the previous item
+  - Fill in the new data
+
+  ═══════════════════════════════════════════════════════════════════ */
+
+const CONFIG = {
+
+  /* ──────────────────────────────────────────
+     SITE META
+  ────────────────────────────────────────── */
+  site: {
+    title: "John Doe — Portfolio",         // Browser tab title
+    navLogo: "JOHN DOE",                   // Top-left navbar logo text
+    footerLogo: "JOHN DOE",
+    footerTagline: "Let's build something great together.",
+    footerCopy: "© 2025 John Doe. All rights reserved.",
+  },
+
+  /* ──────────────────────────────────────────
+     NAVIGATION RESUME BUTTON
+  ────────────────────────────────────────── */
+  resumeLink: "https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view?usp=sharing",
+  // ↑ Replace YOUR_RESUME_FILE_ID with your actual Google Drive file ID
+
+  /* ──────────────────────────────────────────
+     HERO SECTION
+  ────────────────────────────────────────── */
+  hero: {
+    tag: "OPEN TO WORK",                   // Blinking red badge (e.g. "OPEN TO WORK" / "AVAILABLE FOR FREELANCE")
+    name: "JOHN DOE",                      // Your full name in giant text
+    subtitle: "Full Stack Developer · Data Engineer · Problem Solver",
+    description: "Building scalable systems and intuitive products. Based in Hyderabad, India.",
+    resumeLink: "https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view?usp=sharing",
+
+    // Stats shown below the CTA buttons (set to "" to hide a stat)
+    stats: [
+      { number: "3+",  label: "Years Experience" },
+      { number: "12+", label: "Projects Shipped" },
+      { number: "5+",  label: "Certifications" },
+      { number: "2",   label: "Degrees" },
+    ],
+  },
+
+  /* ──────────────────────────────────────────
+     ABOUT ME
+  ────────────────────────────────────────── */
+  about: {
+    photo: "assets/photo.jpg",             // Put your photo in /assets/photo.jpg
+    location: "📍 Hyderabad, India",
+    heading: "Hey, I'm",
+    nameHighlight: "John Doe",             // Shown in red after "Hey, I'm"
+    paragraphs: [
+      "I'm a Full Stack Developer and Data Engineer passionate about building products that matter. I thrive at the intersection of clean code, thoughtful design, and data-driven decision making.",
+      "With 3+ years of professional experience, I've contributed to projects ranging from enterprise-scale data pipelines to consumer-facing web apps with thousands of users.",
+      "Outside of work, I'm constantly learning — whether it's a new framework, a system design concept, or experimenting with side projects. I believe curiosity is the best career strategy.",
+    ],
+    links: [
+      { label: "💼 LinkedIn",  url: "https://linkedin.com/in/your-profile" },
+      { label: "🐙 GitHub",    url: "https://github.com/your-username" },
+      { label: "✉️ Email",     url: "mailto:your@email.com" },
+      { label: "🐦 Twitter",   url: "https://twitter.com/yourhandle" },
+    ],
+  },
+
+  /* ──────────────────────────────────────────
+     SECTION LABELS (rename any section)
+  ────────────────────────────────────────── */
+  sectionLabels: {
+    experience:     "02 — Work Experience",
+    projects:       "03 — Projects",
+    certifications: "04 — Certifications",
+    education:      "05 — Education",
+    hobbies:        "06 — Beyond Work",
+  },
+
+  sectionHeadings: {
+    experience:     "",    // Leave empty to hide sub-heading
+    projects:       "Things I've Built",
+    certifications: "Credentials & Licenses",
+    education:      "Academic Background",
+    hobbies:        "What I Do When I'm Not Coding",
+  },
+
+  /* ──────────────────────────────────────────
+     WORK EXPERIENCE TIMELINE
+     Add as many jobs as you want.
+     certLink: link to proof of experience / certificate (Google Drive)
+  ────────────────────────────────────────── */
+  experience: [
+    {
+      company:    "Infosys Limited",
+      role:       "Senior Systems Engineer",
+      startDate:  "Aug 2022",
+      endDate:    "Present",
+      type:       "Full-time",             // e.g. Full-time / Internship / Contract
+      description: "Led the development of a real-time data pipeline processing 2M+ daily events using Apache Kafka and Spark. Architected RESTful APIs consumed by 5 internal teams. Reduced deployment time by 40% by introducing CI/CD pipelines with GitHub Actions.",
+      skills: ["Python", "Apache Kafka", "Spark", "React", "AWS", "CI/CD"],
+      certLink:   "",                      // Leave empty to hide the button
+      certLabel:  "View Offer Letter",
+    },
+    {
+      company:    "Tech Mahindra",
+      role:       "Software Engineer Intern",
+      startDate:  "Jan 2022",
+      endDate:    "Jul 2022",
+      type:       "Internship",
+      description: "Worked on the backend team building microservices for a logistics platform. Wrote 200+ unit tests improving coverage from 42% to 87%. Participated in daily standups and sprint planning using Jira.",
+      skills: ["Java", "Spring Boot", "MySQL", "Docker", "Jira"],
+      certLink:   "https://drive.google.com/file/d/YOUR_INTERNSHIP_CERT_ID/view?usp=sharing",
+      certLabel:  "View Certificate",
+    },
+    {
+      company:    "Freelance",
+      role:       "Web Developer",
+      startDate:  "Jun 2021",
+      endDate:    "Dec 2021",
+      type:       "Freelance",
+      description: "Built 4 client websites using React and Node.js. Designed responsive UIs in Figma and handled client communication end-to-end. Projects ranged from portfolio sites to e-commerce stores.",
+      skills: ["React", "Node.js", "Figma", "MongoDB", "Vercel"],
+      certLink:   "",
+      certLabel:  "",
+    },
+  ],
+
+  /* ──────────────────────────────────────────
+     PROJECTS
+     link:  GitHub or Live URL
+     driveLink: Google Drive demo / case study link
+  ────────────────────────────────────────── */
+  projects: [
+    {
+      title:       "DataFlow Dashboard",
+      description: "Real-time analytics dashboard built with React and D3.js, visualizing live data streams from IoT sensors.",
+      image:       "",                     // Put path like "assets/proj1.jpg" or leave empty for icon
+      icon:        "📊",                   // Shown when no image
+      tags:        ["React", "D3.js", "Node.js", "WebSocket"],
+      githubLink:  "https://github.com/your-username/dataflow",
+      driveLink:   "",                     // Google Drive link for demo video / case study
+      liveLink:    "https://your-live-demo.vercel.app",
+    },
+    {
+      title:       "ShopSmart AI",
+      description: "E-commerce recommendation engine using collaborative filtering. Increased click-through rate by 23% in A/B tests.",
+      image:       "",
+      icon:        "🛒",
+      tags:        ["Python", "Flask", "Scikit-learn", "PostgreSQL"],
+      githubLink:  "https://github.com/your-username/shopsmart",
+      driveLink:   "https://drive.google.com/file/d/YOUR_CASE_STUDY_ID/view?usp=sharing",
+      liveLink:    "",
+    },
+    {
+      title:       "DevOps Pipeline Kit",
+      description: "Reusable CI/CD pipeline templates for GitHub Actions. Used by 50+ developers on open source projects.",
+      image:       "",
+      icon:        "⚙️",
+      tags:        ["GitHub Actions", "Docker", "YAML", "Bash"],
+      githubLink:  "https://github.com/your-username/pipeline-kit",
+      driveLink:   "",
+      liveLink:    "",
+    },
+    {
+      title:       "Portfolio Website",
+      description: "This very website — a Netflix-inspired dark portfolio with zero dependencies, pure HTML/CSS/JS.",
+      image:       "",
+      icon:        "🎬",
+      tags:        ["HTML", "CSS", "JavaScript"],
+      githubLink:  "https://github.com/your-username/portfolio",
+      driveLink:   "",
+      liveLink:    "",
+    },
+  ],
+
+  /* ──────────────────────────────────────────
+     CERTIFICATIONS
+     driveLink: Google Drive link to your certificate PDF/image
+  ────────────────────────────────────────── */
+  certifications: [
+    {
+      name:      "AWS Certified Solutions Architect",
+      issuer:    "Amazon Web Services",
+      date:      "Mar 2024",
+      icon:      "☁️",
+      driveLink: "https://drive.google.com/file/d/YOUR_AWS_CERT_ID/view?usp=sharing",
+    },
+    {
+      name:      "Google Data Analytics Professional Certificate",
+      issuer:    "Google / Coursera",
+      date:      "Nov 2023",
+      icon:      "📈",
+      driveLink: "https://drive.google.com/file/d/YOUR_GOOGLE_CERT_ID/view?usp=sharing",
+    },
+    {
+      name:      "Meta Front-End Developer Certificate",
+      issuer:    "Meta / Coursera",
+      date:      "Jun 2023",
+      icon:      "⚛️",
+      driveLink: "https://drive.google.com/file/d/YOUR_META_CERT_ID/view?usp=sharing",
+    },
+    {
+      name:      "Python for Data Science",
+      issuer:    "IBM / edX",
+      date:      "Jan 2023",
+      icon:      "🐍",
+      driveLink: "https://drive.google.com/file/d/YOUR_IBM_CERT_ID/view?usp=sharing",
+    },
+    {
+      name:      "Docker & Kubernetes Fundamentals",
+      issuer:    "Udemy",
+      date:      "Sep 2022",
+      icon:      "🐳",
+      driveLink: "https://drive.google.com/file/d/YOUR_DOCKER_CERT_ID/view?usp=sharing",
+    },
+  ],
+
+  /* ──────────────────────────────────────────
+     EDUCATION / DEGREE
+     driveLink: Google Drive link to your degree certificate / transcript
+  ────────────────────────────────────────── */
+  education: [
+    {
+      degree:    "B.Tech in Computer Science & Engineering",
+      school:    "JNTU Hyderabad",
+      period:    "Aug 2018 — May 2022",
+      cgpa:      "CGPA: 8.4 / 10",
+      description: "Specialized in Data Structures, Algorithms, and Database Systems. Capstone project: 'Predictive Analytics Platform for Supply Chain Optimization' — awarded Best Project of Batch.",
+      driveLink: "https://drive.google.com/file/d/YOUR_DEGREE_ID/view?usp=sharing",
+      driveLabel: "View Degree Certificate",
+    },
+    {
+      degree:    "Higher Secondary Certificate (12th)",
+      school:    "Narayana Junior College, Hyderabad",
+      period:    "Jun 2016 — Apr 2018",
+      cgpa:      "Percentage: 96.2%",
+      description: "Mathematics, Physics, Chemistry stream. State rank holder in Intermediate Examinations.",
+      driveLink: "https://drive.google.com/file/d/YOUR_HSC_ID/view?usp=sharing",
+      driveLabel: "View Marksheet",
+    },
+  ],
+
+  /* ──────────────────────────────────────────
+     HOBBIES
+  ────────────────────────────────────────── */
+  hobbies: [
+    { emoji: "📸", name: "Photography", note: "Street & landscape photography on weekends" },
+    { emoji: "♟️", name: "Chess",       note: "Rated 1450+ on Chess.com, love studying openings" },
+    { emoji: "🎸", name: "Guitar",      note: "Self-taught, mostly rock & blues covers" },
+    { emoji: "📚", name: "Reading",     note: "Tech blogs, biographies, and sci-fi novels" },
+    { emoji: "🏋️", name: "Fitness",     note: "Daily gym routine, powerlifting enthusiast" },
+    { emoji: "✈️", name: "Travel",      note: "Explored 8 states across India so far" },
+    { emoji: "🎮", name: "Gaming",      note: "Strategy games — Civilization, Chess, Valorant" },
+    { emoji: "🍳", name: "Cooking",     note: "Experimenting with regional Indian cuisines" },
+  ],
+
+  /* ──────────────────────────────────────────
+     FOOTER LINKS
+  ────────────────────────────────────────── */
+  footerLinks: [
+    { label: "LinkedIn", url: "https://linkedin.com/in/your-profile" },
+    { label: "GitHub",   url: "https://github.com/your-username" },
+    { label: "Email",    url: "mailto:your@email.com" },
+    { label: "Resume",   url: "https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view?usp=sharing" },
+  ],
+
+};
+/* ═══════════════════════════════════════════════════
+   END OF CONFIG — DO NOT EDIT BELOW THIS LINE
+   ═══════════════════════════════════════════════════ */
