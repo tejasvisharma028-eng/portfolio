@@ -579,7 +579,7 @@ section h2 {
 .edu-degree { font-family: var(--font-display); font-size: 1.4rem; color: var(--white); letter-spacing: 0.04em; margin-bottom: 0.4rem; }
 .edu-school { font-size: 0.95rem; color: var(--red); font-weight: 600; margin-bottom: 0.25rem; }
 .edu-period { font-family: var(--font-mono); font-size: 0.72rem; color: var(--muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.8rem; }
-.edu-desc { font-size: 0.88rem; color: #aaa; line-height: 1.6; margin-bottom: 1.2rem; }
+.edu-desc { font-size: 0.88rem; color: #aaa; line-height: 1.6; margin-bottom: 1.2rem; white-space: pre-line; }
 .btn-edu {
   display: inline-flex;
   align-items: center;
