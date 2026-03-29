@@ -70,13 +70,11 @@ const CONFIG = {
   ────────────────────────────────────────── */
   about: {
     photo: "assets/photo.jpg",             // Put your photo in /assets/photo.jpg
-    location: "📍 Shahdara,Delhi, India",
+    location: "📍 Shahdara, Delhi, India",
     heading: "Hey, I'm",
     nameHighlight: "Tejasvi Sharma",             // Shown in red after "Hey, I'm"
     paragraphs: [
-      "I don't just work with data — I make it tell stories that change how organizations think and act. With an IIM MBA, a Lean Six Sigma Green Belt, and hands-on experience managing a ₹1,500 Cr portfolio at ICICI Bank, I bring rigorous analytical thinking to every problem I touch.",
-      " My toolkit includes Python, SQL, Power BI, Tableau, Alteryx, and Advanced Excel — but my real edge is knowing when to use which tool and why.",
-      " I've led teams, co-founded a venture, presided over a consulting club, and published academic work — because I believe leadership and analysis are two sides of the same coin. My mission is to build a career at the frontier of strategy and technology — where the best decisions are always data-informed, human-centered, and built to last.",
+      "I don't just work with data — I make it tell stories that change how organizations think and act. With an IIM MBA, a Lean Six Sigma Green Belt, and hands-on experience managing a ₹1,500 Cr portfolio at ICICI Bank, I bring rigorous analytical thinking to every problem I touch." My toolkit includes Python, SQL, Power BI, Tableau, Alteryx, and Advanced Excel — but my real edge is knowing when to use which tool and why. I've led teams, co-founded a venture, presided over a consulting club, and published academic work — because I believe leadership and analysis are two sides of the same coin. My mission is to build a career at the frontier of strategy and technology — where the best decisions are always data-informed, human-centered, and built to last.",
     ],
     links: [
       { label: "💼 LinkedIn", url: "https://www.linkedin.com/in/tejasvi-sharma028/" },
@@ -116,13 +114,13 @@ const CONFIG = {
       startDate: "June 2025",
       endDate: "Present",
       type: "Full-time",             // e.g. Full-time / Internship / Contract
-      description: ["Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure. \n 2)Conducted credit and industry risk assessment across 15+ sectors, evaluating business models, credit, and sectoral risks.",
-        "3) Integrated multi-source datasets and automated validation workflows via Excel & SQL, improving accuracy by 26%.",
-        "4) Partnered with cross-functional teams (RMs, data engineering, credit ops) to close information gaps and improve traceability.",
-        "5) Performed ratio analysis, regression forecasting, and NWC diagnostic to enhance early warning detection speed by 35%.",
-        "6) Delivered strategic credit recommendations (continue/enhance/exit) backed by Power BI & Tableau dashboards.",
-        "7)Reduced analysis turnaround time by 25%, while ensuring full compliance with RBI and ICICI credit risk frameworks."
-      ],
+      description= `Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.
+       2) Conducted credit and industry risk assessment across 15+ sectors, evaluating business models, credit, and sectoral risks.
+        3) Integrated multi-source datasets and automated validation workflows via Excel & SQL, improving accuracy by 26%.
+        4) Partnered with cross-functional teams (RMs, data engineering, credit ops) to close information gaps and improve traceability.
+         5) Performed ratio analysis, regression forecasting, and NWC diagnostic to enhance early warning detection speed by 35%.
+        6) Delivered strategic credit recommendations (continue/enhance/exit) backed by Power BI & Tableau dashboards.
+        7)Reduced analysis turnaround time by 25%, while ensuring full compliance with RBI and ICICI credit risk frameworks.`
       skills: ["Python", "Advance Excel", "MS Team", "MS Office", "SQL", "Data Analysis"],
       certLink: "",                      // Leave empty to hide the button
       certLabel: "View Offer Letter",
