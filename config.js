@@ -116,13 +116,13 @@ const CONFIG = {
       startDate: "June 2025",
       endDate: "Present",
       type: "Full-time",             // e.g. Full-time / Internship / Contract
-      description: ["1) Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.",
-      "\n 2) Conducted credit and industry risk assessment across 15+ sectors, evaluating business models, credit, and sectoral risks.",
-      "\n 3) Integrated multi-source datasets and automated validation workflows via Excel & SQL, improving accuracy by 26%.",
-      "\n 4) Partnered with cross-functional teams (RMs, data engineering, credit ops) to close information gaps and improve traceability.",
-      "\n 5) Performed ratio analysis, regression forecasting, and NWC diagnostic to enhance early warning detection speed by 35%.",
-      "\n 6) Delivered strategic credit recommendations (continue/enhance/exit) backed by Power BI & Tableau dashboards.",
-      "\n 7)Reduced analysis turnaround time by 25%, while ensuring full compliance with RBI and ICICI credit risk frameworks.",],
+      description: `1) Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.
+      "\n 2) Conducted credit and industry risk assessment across 15+ sectors, evaluating business models, credit, and sectoral risks.
+      "\n 3) Integrated multi-source datasets and automated validation workflows via Excel & SQL, improving accuracy by 26%.
+      "\n 4) Partnered with cross-functional teams (RMs, data engineering, credit ops) to close information gaps and improve traceability.
+      "\n 5) Performed ratio analysis, regression forecasting, and NWC diagnostic to enhance early warning detection speed by 35%.
+      "\n 6) Delivered strategic credit recommendations (continue/enhance/exit) backed by Power BI & Tableau dashboards.
+      "\n 7) Reduced analysis turnaround time by 25%, while ensuring full compliance with RBI and ICICI credit risk frameworks.`,
 
       skills: ["Python", "Advance Excel", "MS Team", "MS Office", "SQL", "Data Analysis"],
       certLink: "",                      // Leave empty to hide the button
