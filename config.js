@@ -70,19 +70,17 @@ const CONFIG = {
   ────────────────────────────────────────── */
   about: {
     photo: "assets/photo.jpg",             // Put your photo in /assets/photo.jpg
-    location: "📍 Hyderabad, India",
+    location: "📍 Shahdara,Delhi, India",
     heading: "Hey, I'm",
-    nameHighlight: "John Doe",             // Shown in red after "Hey, I'm"
+    nameHighlight: "Tejasvi Sharma",             // Shown in red after "Hey, I'm"
     paragraphs: [
-      "I'm a Full Stack Developer and Data Engineer passionate about building products that matter. I thrive at the intersection of clean code, thoughtful design, and data-driven decision making.",
-      "With 3+ years of professional experience, I've contributed to projects ranging from enterprise-scale data pipelines to consumer-facing web apps with thousands of users.",
-      "Outside of work, I'm constantly learning — whether it's a new framework, a system design concept, or experimenting with side projects. I believe curiosity is the best career strategy.",
+      "Strategic Analyst with proven experience in financial modeling, KPI reporting, stakeholder management, and process automation using Python, SQL, Power BI, and Alteryx.",
+      " I don't just analyze data — I architect decisions that align business goals with measurable outcomes.",
     ],
     links: [
-      { label: "💼 LinkedIn",  url: "https://linkedin.com/in/your-profile" },
-      { label: "🐙 GitHub",    url: "https://github.com/your-username" },
-      { label: "✉️ Email",     url: "mailto:your@email.com" },
-      { label: "🐦 Twitter",   url: "https://twitter.com/yourhandle" },
+      { label: "💼 LinkedIn",  url: "https://www.linkedin.com/in/tejasvi-sharma028/" },
+      { label: "🐙 GitHub",    url: "https://github.com/projects" },
+      { label: "✉️ Email",     url: "tejasvisharma028@gmail.com" },
     ],
   },
 
@@ -112,12 +110,19 @@ const CONFIG = {
   ────────────────────────────────────────── */
   experience: [
     {
-      company:    "Infosys Limited",
-      role:       "Senior Systems Engineer",
-      startDate:  "Aug 2022",
+      company:    "ICICI Bank Limited",
+      role:       "Manager (Credit Analyst)",
+      startDate:  "June 2025",
       endDate:    "Present",
       type:       "Full-time",             // e.g. Full-time / Internship / Contract
-      description: "Led the development of a real-time data pipeline processing 2M+ daily events using Apache Kafka and Spark. Architected RESTful APIs consumed by 5 internal teams. Reduced deployment time by 40% by introducing CI/CD pipelines with GitHub Actions.",
+      description: [ "Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.",
+"\n 2)Conducted credit and industry risk assessment across 15+ sectors, evaluating business models, credit, and sectoral risks.",
+"\n 3) Integrated multi-source datasets and automated validation workflows via Excel & SQL, improving accuracy by 26%.",
+"\n 4) Partnered with cross-functional teams (RMs, data engineering, credit ops) to close information gaps and improve traceability.",
+"\n 5) Performed ratio analysis, regression forecasting, and NWC diagnostic to enhance early warning detection speed by 35%.",
+"\n 6) Delivered strategic credit recommendations (continue/enhance/exit) backed by Power BI & Tableau dashboards.",
+"\n 7)Reduced analysis turnaround time by 25%, while ensuring full compliance with RBI and ICICI credit risk frameworks."
+],
       skills: ["Python", "Apache Kafka", "Spark", "React", "AWS", "CI/CD"],
       certLink:   "",                      // Leave empty to hide the button
       certLabel:  "View Offer Letter",
