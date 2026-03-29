@@ -149,6 +149,34 @@ const CONFIG = {
       certLink:  "",
       certLabel: "",
     },
+    {
+      company:     "SkillVertex",
+      role:        "Digital Marketing & Analytics Intern",
+      startDate:   "Jul 2024",
+      endDate:     "Dec 2024",
+      type:        "Internship",
+      description: `● Analyzed customer data to generate segmentation reports and performance metrics for business and operations decisions.
+● Conducted A/B testing, forecasting, and gap analysis to identify engagement drivers and optimize end-user journey.`,
+      skills:    ["Market Research", "Digital Marketing", "PowerPoint", "Guirella Marketing", "Marketing Analytics"],
+      certLink:  "https://drive.google.com/file/d/1u3KUTs9-cjYxvVwmSy_FlpX36-Yv-eDj/view?usp=sharing",
+      certLabel: "View Certificate",
+    },
+
+    {
+      company:     "Shiv Nadar University",
+      role:        "Admissions and Marketing Coordinator ",
+      startDate:   "Jan 2022",
+      endDate:     "May 2022",
+      type:        "Internship",
+      description: `● Managed end-to-end admissions outreach including social media management and email correspondence for the Department of Admissions.
+● Conducted in-person and phone counselling sessions for prospective students, guiding them through the admissions process.
+● Coordinated campus tours and managed admission events, ensuring seamless experience for visiting students and families.
+● Handled marketing-related activities to support student recruitment and institutional visibility.`,
+      skills:    ["Event Management", "Communication", "Mentoring", "Social Media Marketing", "Social Media Communications"],
+      certLink:  "https://drive.google.com/file/d/1xCLZuh7E-AxcVEfLEUv53vS3gO-YwI1M/view?usp=sharing",
+      certLabel: "View Certificate",
+    },
+    
   ],
 
   /* ──────────────────────────────────────────
@@ -164,7 +192,7 @@ const CONFIG = {
       githubLink:     "",
       liveLink:       "",
       driveLink:      "https://drive.google.com/file/d/1l8f-FfMYSJzsJn6xhT77_ND8JuJycZIq/view?usp=sharing",
-      driveLinkLabel: "📄 CampusSync Project File",
+      driveLinkLabel: "Project File",
     },
     {
       title:          "Finance Tracker — Agentic AI",
@@ -178,15 +206,17 @@ const CONFIG = {
       driveLinkLabel: "📄 View Project",
     },
     {
-      title:          "Portfolio Website",
-      description:    "This very website — a Netflix-inspired dark portfolio with zero dependencies, pure HTML/CSS/JS. Fully editable via a single config file.",
-      image:          "",
-      icon:           "🎬",
-      tags:           ["HTML", "CSS", "JavaScript"],
+      title:          "NIFTY India Consumption High Alpha Low PE",
+      description:    `● Built an end-to-end equity portfolio on NIFTY India Consumption Index using Python for data collection across 192 stocks screened on P/E, Beta, EPS, and P/B criteria.
+● Constructed optimised portfolios using Single Index Model (C-Score) and Markowitz Model — Markowitz outperformed with 2.367% vs -2.114% returns over the same holding period.
+● Applied APT and Fama-French Four-Factor Model for return decomposition; achieved 7.33% annualised portfolio return via multifactor model.
+● Hedged ₹1 Cr portfolio using NIFTY50 Protective Put options (25000 PE), reducing maximum downside loss from -6.17% to -5.44%,
+      image:      "📈",
+  tags:           ["Python", "Financial Modelling", "Markowitz Model", "Portfolio Optimisation", "Fama-French", "Options Hedging", "PCA", "APT"],
       githubLink:     "",
       liveLink:       "",
-      driveLink:      "",
-      driveLinkLabel: "",
+      driveLink:      "https://drive.google.com/drive/folders/14oQi4Wmewh0ImoOWgitUH-znP8_FvbgJ?usp=sharing",
+      driveLinkLabel: "Project File",
     },
   ],
 
