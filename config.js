@@ -33,17 +33,17 @@ const CONFIG = {
      SITE META
   ────────────────────────────────────────── */
   site: {
-    title: "John Doe — Portfolio",         // Browser tab title
-    navLogo: "JOHN DOE",                   // Top-left navbar logo text
-    footerLogo: "JOHN DOE",
-    footerTagline: "Let's build something great together.",
-    footerCopy: "© 2025 John Doe. All rights reserved.",
+    title: "Tejasvi Sharma — Portfolio",         // Browser tab title
+    navLogo: "Tejasvi Sharma",                   // Top-left navbar logo text
+    footerLogo: "Tejasvi Sharma",
+    footerTagline: "Let's get to know me better",
+    footerCopy: "© 2026 Tejasvi Sharma. All rights reserved.",
   },
 
   /* ──────────────────────────────────────────
      NAVIGATION RESUME BUTTON
   ────────────────────────────────────────── */
-  resumeLink: "https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view?usp=sharing",
+  resumeLink: "hhttps://drive.google.com/file/d/1GU_OpbKkWioJO8I-2hQDcACKg4C21J12/view?usp=sharing",
   // ↑ Replace YOUR_RESUME_FILE_ID with your actual Google Drive file ID
 
   /* ──────────────────────────────────────────
@@ -51,15 +51,15 @@ const CONFIG = {
   ────────────────────────────────────────── */
   hero: {
     tag: "OPEN TO WORK",                   // Blinking red badge (e.g. "OPEN TO WORK" / "AVAILABLE FOR FREELANCE")
-    name: "JOHN DOE",                      // Your full name in giant text
-    subtitle: "Full Stack Developer · Data Engineer · Problem Solver",
-    description: "Building scalable systems and intuitive products. Based in Hyderabad, India.",
+    name: "Tejasvi Sharma",                      // Your full name in giant text
+    subtitle: "Analyst · AI Adopter · Problem Solver  · Execution Oriented",
+    description: "Analytical. Versatile. — I turn complex data into decisions that move the needle.",
     resumeLink: "https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view?usp=sharing",
 
     // Stats shown below the CTA buttons (set to "" to hide a stat)
     stats: [
-      { number: "3+",  label: "Years Experience" },
-      { number: "12+", label: "Projects Shipped" },
+      { number: "1+",  label: "Years Experience" },
+      { number: "2+", label: "Projects Shipped" },
       { number: "5+",  label: "Certifications" },
       { number: "2",   label: "Degrees" },
     ],
@@ -74,8 +74,11 @@ const CONFIG = {
     heading: "Hey, I'm",
     nameHighlight: "Tejasvi Sharma",             // Shown in red after "Hey, I'm"
     paragraphs: [
-      "Strategic Analyst with proven experience in financial modeling, KPI reporting, stakeholder management, and process automation using Python, SQL, Power BI, and Alteryx.",
-      " I don't just analyze data — I architect decisions that align business goals with measurable outcomes.",
+      "I don't just work with data — I make it tell stories that change how organizations think and act.",
+      " With an IIM MBA, a Lean Six Sigma Green Belt, and hands-on experience managing a ₹1,500 Cr portfolio at ICICI Bank, I bring rigorous analytical thinking to every problem I touch.",
+      " My toolkit includes Python, SQL, Power BI, Tableau, Alteryx, and Advanced Excel — but my real edge is knowing when to use which tool and why.",
+      " I've led teams, co-founded a venture, presided over a consulting club, and published academic work — because I believe leadership and analysis are two sides of the same coin.", 
+      "My mission is to build a career at the frontier of strategy and technology — where the best decisions are always data-informed, human-centered, and built to last.",
     ],
     links: [
       { label: "💼 LinkedIn",  url: "https://www.linkedin.com/in/tejasvi-sharma028/" },
@@ -115,7 +118,7 @@ const CONFIG = {
       startDate:  "June 2025",
       endDate:    "Present",
       type:       "Full-time",             // e.g. Full-time / Internship / Contract
-      description: [ "Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.",
+      description: ["Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.\n",
 "\n 2)Conducted credit and industry risk assessment across 15+ sectors, evaluating business models, credit, and sectoral risks.",
 "\n 3) Integrated multi-source datasets and automated validation workflows via Excel & SQL, improving accuracy by 26%.",
 "\n 4) Partnered with cross-functional teams (RMs, data engineering, credit ops) to close information gaps and improve traceability.",
@@ -123,7 +126,7 @@ const CONFIG = {
 "\n 6) Delivered strategic credit recommendations (continue/enhance/exit) backed by Power BI & Tableau dashboards.",
 "\n 7)Reduced analysis turnaround time by 25%, while ensuring full compliance with RBI and ICICI credit risk frameworks."
 ],
-      skills: ["Python", "Apache Kafka", "Spark", "React", "AWS", "CI/CD"],
+      skills: ["Python", "Advance Excel", "MS Team", "MS Office", "SQL", "Data Analysis"],
       certLink:   "",                      // Leave empty to hide the button
       certLabel:  "View Offer Letter",
     },
