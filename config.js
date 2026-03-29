@@ -259,6 +259,13 @@ const CONFIG = {
       icon:      "🐍",
       driveLink: "",
     },
+     {
+      name:      "Fundamentals of digital marketing",
+      issuer:    "Google",
+      date:      "May 2020",
+      icon:      "🐍",
+      driveLink: "https://drive.google.com/file/d/1fJmVAo2Ordo2-RUPag_CC6jy3GgrKnpp/view?usp=sharing",
+    },
   ],
 
   /* ──────────────────────────────────────────
@@ -269,16 +276,17 @@ const CONFIG = {
       degree:      "Master of Business Administration",
       school:      "Indian Institute of Management, Bodh Gaya",
       period:      "Jul 2023 — Apr 2025",
-      cgpa:        "Major: Marketing & Finance · Top 7% of Batch",
-      description: "Specialised in Marketing & Finance. Ranked in the top 7% of the batch. President of Strategy & Consulting Club. Published a book chapter with IGI Global on Social-Media Marketing Framework.",
+      cgpa:        "8.09",
+      description: `Major: Marketing & Finance · Top 7% of Batch
+      Specialised in Marketing & Finance. Ranked in the top 7% of the batch. President of Strategy & Consulting Club. Published a book chapter with IGI Global on Social-Media Marketing Framework.`,
       driveLink:   "",
       driveLabel:  "View Degree Certificate",
     },
     {
-      degree:      "Bachelor of Engineering — Mechanical Engineering",
+      degree:      "Bachelor of Engineering — Mechanical Engineering and Minor: Management",
       school:      "Shiv Nadar University, Noida",
-      period:      "Aug 2019 — May 2023",
-      cgpa:        "Minor: Management · 90% Scholarship",
+      period:      "Aug 2019 — May 2023\n",
+      cgpa:        "8.7",
       description: "Awarded 90% scholarship for academic excellence. Dean's List 2021 & 2022 (GPA above 8.0). Secured 96.26 percentile in CAT'22. Minor in Management Studies.",
       driveLink:   "",
       driveLabel:  "View Degree Certificate",
@@ -289,14 +297,12 @@ const CONFIG = {
      HOBBIES
   ────────────────────────────────────────── */
   hobbies: [
-    { emoji: "📸", name: "Photography", note: "Street & landscape photography on weekends" },
-    { emoji: "♟️", name: "Chess",       note: "Love studying openings and end games" },
-    { emoji: "🎸", name: "Guitar",      note: "Self-taught, mostly rock & blues covers" },
-    { emoji: "📚", name: "Reading",     note: "Tech blogs, biographies, and business books" },
     { emoji: "🏋️", name: "Fitness",     note: "Daily gym routine, powerlifting enthusiast" },
-    { emoji: "✈️", name: "Travel",      note: "Explored multiple states across India" },
-    { emoji: "🎮", name: "Gaming",      note: "Strategy games — Civilization, Chess" },
-    { emoji: "🍳", name: "Cooking",     note: "Experimenting with regional Indian cuisines" },
+    { emoji: "📸", name: "Photography", note: "Street & landscape photography on weekends" },
+    
+   
+
+   
   ],
 
   /* ──────────────────────────────────────────
@@ -368,6 +374,14 @@ CONFIG.achievements = [
     desc:  "Awarded 90% academic excellence scholarship. Dean's List 2021 & 2022 (GPA above 8.0).",
   },
   {
+    icon:  "🏅",
+    title: "Overall Competition Winner- MEGA ATC Championship",
+    desc:  "We took part in the offline mode of MAC and built an electric ATV in less than 30 days in such unprecedented times. We devoted ourselves completely to achieving this quixotic challenge and eventually our hard work paid off. We competed against the electrical and combustible engines ATV and came out on top as the overall winner of such a prestigious competition.",
+    driveLink:   "https://drive.google.com/file/d/1HGzNPTtjHBrw0gOdPy1OKLz3lsSclKMu/view?usp=sharing",
+      driveLabel:  "View Degree Certificate",
+    
+  },
+  {
     icon:  "📈",
     title: "ROI Improved by 8.5% — Reliance Retail",
     desc:  "Financial models (DCF & sensitivity analysis) directly contributed to 8.5% ROI improvement.",
@@ -409,5 +423,7 @@ CONFIG.positions = [
     period:      "Aug 2020 — Mar 2021",
     description: `● Led a 20-member entrepreneurship venture mentoring 300+ students through workshops and competitions.
 ● Organised events focused on skill development, innovation, and entrepreneurial thinking.`,
+      certLink:  "https://drive.google.com/file/d/1Jdbr0kFS94kxgn0gKnz70IwUZ98vvq1y/view?usp=sharing",
+      certLabel: "View Certificate",
   },
 ];
