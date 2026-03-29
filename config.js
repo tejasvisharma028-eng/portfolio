@@ -301,6 +301,8 @@ const CONFIG = {
   hobbies: [
     { emoji: "🏋️", name: "Fitness", note: "Daily gym routine, powerlifting enthusiast" },
     { emoji: "📸", name: "Photography", note: "Street & landscape photography on weekends" },
+    { emoji: "📸", name: "Movies/Web-Series", note: "Love to spend weekends binge watching Netflix, Prime, Hotstar or in Cinema" },
+
 
 
 
