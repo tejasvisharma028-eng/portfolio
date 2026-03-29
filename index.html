@@ -11,9 +11,7 @@
 </head>
 <body>
 
-  <!-- ═══════════════════════════════════════════
-       NAVIGATION
-  ═══════════════════════════════════════════ -->
+  <!-- NAVIGATION -->
   <nav id="navbar">
     <div class="nav-inner">
       <div class="nav-logo" id="nav-logo-text">PORTFOLIO</div>
@@ -21,7 +19,10 @@
         <li><a href="#hero">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
+        <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#positions">Positions</a></li>
         <li><a href="#certifications">Certifications</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#hobbies">Hobbies</a></li>
@@ -30,16 +31,14 @@
     </div>
   </nav>
 
-  <!-- ═══════════════════════════════════════════
-       HERO SECTION
-  ═══════════════════════════════════════════ -->
+  <!-- HERO -->
   <section id="hero">
     <div class="hero-bg-overlay"></div>
     <div class="hero-content">
       <p class="hero-tag" id="hero-tag">OPEN TO WORK</p>
       <h1 id="hero-name">YOUR NAME</h1>
-      <p class="hero-subtitle" id="hero-subtitle">Full Stack Developer · Data Engineer · Problem Solver</p>
-      <p class="hero-desc" id="hero-desc">Building scalable systems and intuitive products. Based in Hyderabad, India.</p>
+      <p class="hero-subtitle" id="hero-subtitle">Analyst · AI Adopter · Problem Solver</p>
+      <p class="hero-desc" id="hero-desc">Turning data into decisions that move the needle.</p>
       <div class="hero-cta">
         <a class="btn-primary" id="hero-resume-btn" href="#" target="_blank">⬇ Download Resume</a>
         <a class="btn-outline" href="#about">Explore My Work ↓</a>
@@ -49,15 +48,14 @@
     <div class="hero-scroll-hint">scroll down</div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       ABOUT ME
-  ═══════════════════════════════════════════ -->
+  <!-- ABOUT ME -->
   <section id="about">
     <div class="section-label">01 — About Me</div>
     <div class="about-grid">
       <div class="about-photo-wrap">
-        <img id="about-photo" src="assets/photo.jpg" alt="Profile Photo" onerror="this.src='https://placehold.co/400x500/1a1a1a/e50914?text=Your+Photo'"/>
-        <div class="photo-tag" id="about-location-tag">📍 Hyderabad, India</div>
+        <img id="about-photo" src="assets/photo.jpg" alt="Profile Photo"
+             onerror="this.src='https://placehold.co/400x500/1a1a1a/e50914?text=Your+Photo'"/>
+        <div class="photo-tag" id="about-location-tag">📍 Delhi, India</div>
       </div>
       <div class="about-text">
         <h2 id="about-heading">Hey, I'm <span class="red" id="about-name-span">Your Name</span></h2>
@@ -67,61 +65,82 @@
     </div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       EXPERIENCE TIMELINE
-  ═══════════════════════════════════════════ -->
+  <!-- EXPERIENCE TIMELINE -->
   <section id="experience">
     <div class="section-label" id="exp-section-label">02 — Work Experience</div>
     <div class="timeline" id="timeline-container"></div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       PROJECTS
-  ═══════════════════════════════════════════ -->
-  <section id="projects">
-    <div class="section-label" id="proj-section-label">03 — Projects</div>
-    <div class="section-title-row">
+  <!-- SKILLS — Netflix horizontal scroll -->
+  <section id="skills" class="full-bleed-section">
+    <div class="section-inner">
+      <div class="section-label" id="skills-section-label">03 — Skills</div>
+      <h2 id="skills-heading">What I Work With</h2>
+    </div>
+    <div class="netflix-row-wrap" id="skills-row"></div>
+  </section>
+
+  <!-- PROJECTS — Netflix horizontal scroll -->
+  <section id="projects" class="full-bleed-section">
+    <div class="section-inner">
+      <div class="section-label" id="proj-section-label">04 — Projects</div>
       <h2 id="proj-heading">Things I've Built</h2>
     </div>
-    <div class="projects-grid" id="projects-grid"></div>
+    <div class="netflix-row-wrap" id="projects-row"></div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       CERTIFICATIONS
-  ═══════════════════════════════════════════ -->
-  <section id="certifications">
-    <div class="section-label" id="cert-section-label">04 — Certifications</div>
-    <h2 id="cert-heading">Credentials & Licenses</h2>
-    <div class="cert-grid" id="cert-grid"></div>
+  <!-- ACHIEVEMENTS — Netflix horizontal scroll -->
+  <section id="achievements" class="full-bleed-section">
+    <div class="section-inner">
+      <div class="section-label" id="ach-section-label">05 — Achievements</div>
+      <h2 id="ach-heading">Milestones & Recognition</h2>
+    </div>
+    <div class="netflix-row-wrap" id="achievements-row"></div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       EDUCATION / DEGREE
-  ═══════════════════════════════════════════ -->
-  <section id="education">
-    <div class="section-label" id="edu-section-label">05 — Education</div>
-    <h2 id="edu-heading">Academic Background</h2>
-    <div class="edu-grid" id="edu-grid"></div>
+  <!-- POSITIONS OF RESPONSIBILITY — Netflix horizontal scroll -->
+  <section id="positions" class="full-bleed-section">
+    <div class="section-inner">
+      <div class="section-label" id="pos-section-label">06 — Positions of Responsibility</div>
+      <h2 id="pos-heading">Leadership & Initiatives</h2>
+    </div>
+    <div class="netflix-row-wrap" id="positions-row"></div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       HOBBIES
-  ═══════════════════════════════════════════ -->
-  <section id="hobbies">
-    <div class="section-label" id="hobbies-section-label">06 — Beyond Work</div>
-    <h2 id="hobbies-heading">What I Do When I'm Not Coding</h2>
-    <div class="hobbies-grid" id="hobbies-grid"></div>
+  <!-- CERTIFICATIONS — Netflix horizontal scroll -->
+  <section id="certifications" class="full-bleed-section">
+    <div class="section-inner">
+      <div class="section-label" id="cert-section-label">07 — Certifications</div>
+      <h2 id="cert-heading">Credentials & Licenses</h2>
+    </div>
+    <div class="netflix-row-wrap" id="cert-row"></div>
   </section>
 
-  <!-- ═══════════════════════════════════════════
-       FOOTER
-  ═══════════════════════════════════════════ -->
+  <!-- EDUCATION — Netflix horizontal scroll -->
+  <section id="education" class="full-bleed-section">
+    <div class="section-inner">
+      <div class="section-label" id="edu-section-label">08 — Education</div>
+      <h2 id="edu-heading">Academic Background</h2>
+    </div>
+    <div class="netflix-row-wrap" id="edu-row"></div>
+  </section>
+
+  <!-- HOBBIES — Netflix horizontal scroll -->
+  <section id="hobbies" class="full-bleed-section">
+    <div class="section-inner">
+      <div class="section-label" id="hobbies-section-label">09 — Beyond Work</div>
+      <h2 id="hobbies-heading">What I Do When I'm Not Working</h2>
+    </div>
+    <div class="netflix-row-wrap" id="hobbies-row"></div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
     <div class="footer-inner">
       <div class="footer-logo" id="footer-logo-text">PORTFOLIO</div>
       <p id="footer-tagline">Let's build something great together.</p>
       <div class="footer-links" id="footer-links-container"></div>
-      <p class="footer-copy" id="footer-copy-text">© 2025 Your Name. All rights reserved.</p>
+      <p class="footer-copy" id="footer-copy-text">© 2026 Your Name. All rights reserved.</p>
     </div>
   </footer>
 
