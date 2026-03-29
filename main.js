@@ -319,3 +319,49 @@ function renderFooterLinks(links) {
     <a href="${l.url}" target="_blank">${l.label}</a>
   `).join("");
 }
+
+/* ════════════════════════════════════════════════
+   MOBILE HAMBURGER MENU
+   ════════════════════════════════════════════════ */
+
+// Create overlay element
+const overlay = document.createElement("div");
+overlay.className = "menu-overlay";
+document.body.appendChild(overlay);
+
+const hamburger = document.getElementById("hamburger-btn");
+const navLinks  = document.getElementById("nav-links-list");
+
+// Sync resume links
+document.addEventListener("DOMContentLoaded", () => {
+  const mobileResume = document.getElementById("nav-resume-btn-mobile");
+  if (mobileResume) mobileResume.href = CONFIG.resumeLink;
+});
+
+function openMenu() {
+  hamburger.classList.add("open");
+  navLinks.classList.add("open");
+  overlay.classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+
+function closeMenu() {
+  hamburger.classList.remove("open");
+  navLinks.classList.remove("open");
+  overlay.classList.remove("open");
+  document.body.style.overflow = "";
+}
+
+if (hamburger) {
+  hamburger.addEventListener("click", () => {
+    hamburger.classList.contains("open") ? closeMenu() : openMenu();
+  });
+}
+
+// Close when clicking overlay
+overlay.addEventListener("click", closeMenu);
+
+// Close on Escape key
+document.addEventListener("keydown", e => {
+  if (e.key === "Escape") closeMenu();
+});
