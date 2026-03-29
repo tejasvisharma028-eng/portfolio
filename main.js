@@ -226,27 +226,37 @@ function renderProjects(projects) {
 /* ── ACHIEVEMENTS — Netflix row ── */
 function renderAchievements(items) {
   if (!items) return;
-  const cards = items.map(a => `
-    <div class="ach-card">
-      <span class="ach-icon">${a.icon}</span>
-      <div class="ach-title">${a.title}</div>
-      <div class="ach-desc">${a.desc}</div>
-    </div>
-  `).join("");
+  const cards = items.map(a => {
+    const btn = a.certLink
+      ? `<a class="btn-cert" href="${a.certLink}" target="_blank">🎓 ${a.certLabel || "View Certificate"}</a>`
+      : "";
+    return `
+      <div class="ach-card">
+        <span class="ach-icon">${a.icon}</span>
+        <div class="ach-title">${a.title}</div>
+        <div class="ach-desc">${a.desc}</div>
+        ${btn}
+      </div>`;
+  }).join("");
   buildNetflixRow("achievements-row", cards);
 }
 
 /* ── POSITIONS OF RESPONSIBILITY — Netflix row ── */
 function renderPositions(items) {
   if (!items) return;
-  const cards = items.map(p => `
-    <div class="pos-card">
-      <div class="pos-role">${p.role}</div>
-      <div class="pos-org">${p.org}</div>
-      <div class="pos-period">${p.period}</div>
-      <div class="pos-desc">${p.description}</div>
-    </div>
-  `).join("");
+  const cards = items.map(p => {
+    const btn = p.certLink
+      ? `<a class="btn-cert" href="${p.certLink}" target="_blank">📄 ${p.certLabel || "View Certificate"}</a>`
+      : "";
+    return `
+      <div class="pos-card">
+        <div class="pos-role">${p.role}</div>
+        <div class="pos-org">${p.org}</div>
+        <div class="pos-period">${p.period}</div>
+        <div class="pos-desc">${p.description}</div>
+        ${btn}
+      </div>`;
+  }).join("");
   buildNetflixRow("positions-row", cards);
 }
 
