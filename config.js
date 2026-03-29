@@ -116,13 +116,13 @@ const CONFIG = {
       startDate: "June 2025",
       endDate: "Present",
       type: "Full-time",             // e.g. Full-time / Internship / Contract
-      description: `1) Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.
-      "\n 2) Conducted credit and industry risk assessment across 15+ sectors, evaluating business models, credit, and sectoral risks.
-      "\n 3) Integrated multi-source datasets and automated validation workflows via Excel & SQL, improving accuracy by 26%.
-      "\n 4) Partnered with cross-functional teams (RMs, data engineering, credit ops) to close information gaps and improve traceability.
-      "\n 5) Performed ratio analysis, regression forecasting, and NWC diagnostic to enhance early warning detection speed by 35%.
-      "\n 6) Delivered strategic credit recommendations (continue/enhance/exit) backed by Power BI & Tableau dashboards.
-      "\n 7) Reduced analysis turnaround time by 25%, while ensuring full compliance with RBI and ICICI credit risk frameworks.`,
+      description: `●  Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.
+      ●  Conducted credit and industry risk assessment across 15+ sectors, evaluating business models, credit, and sectoral risks.
+      ●  Integrated multi-source datasets and automated validation workflows via Excel & SQL, improving accuracy by 26%.
+      ●  Partnered with cross-functional teams (RMs, data engineering, credit ops) to close information gaps and improve traceability.
+      ●  Performed ratio analysis, regression forecasting, and NWC diagnostic to enhance early warning detection speed by 35%.
+      ●  Delivered strategic credit recommendations (continue/enhance/exit) backed by Power BI & Tableau dashboards.
+      ●  Reduced analysis turnaround time by 25%, while ensuring full compliance with RBI and ICICI credit risk frameworks.`,
 
       skills: ["Python", "Advance Excel", "MS Team", "MS Office", "SQL", "Data Analysis"],
       certLink: "",                      // Leave empty to hide the button
@@ -134,8 +134,10 @@ const CONFIG = {
       startDate: "Jan 2022",
       endDate: "Jul 2022",
       type: "Internship",
-      description: "Worked on the backend team building microservices for a logistics platform. Wrote 200+ unit tests improving coverage from 42% to 87%. Participated in daily standups and sprint planning using Jira.",
-      skills: ["Java", "Spring Boot", "MySQL", "Docker", "Jira"],
+      description: `●  Performed in-depth market analysis on 100+ oral care SKUs, evaluating market dynamics, consumer trends & opportunities.
+      ● Built a financial model (DCF & sensitivity analysis) and conducted cost–benefit & margin analysis, enhancing ROI by 8.5%.
+      ● Developed a strategic expansion plan through primary research and Ansoff Matrix, forecasting a 5–10% market share gain.`,
+      skills: ["Advance Excel", "SPSS", "Google Surveys", "Power Point", "Ansoff Matrix"],
       certLink: "https://drive.google.com/file/d/YOUR_INTERNSHIP_CERT_ID/view?usp=sharing",
       certLabel: "View Certificate",
     },
