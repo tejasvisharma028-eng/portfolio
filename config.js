@@ -43,7 +43,7 @@ const CONFIG = {
   /* ──────────────────────────────────────────
      NAVIGATION RESUME BUTTON
   ────────────────────────────────────────── */
-  resumeLink: "hhttps://drive.google.com/file/d/1GU_OpbKkWioJO8I-2hQDcACKg4C21J12/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1GU_OpbKkWioJO8I-2hQDcACKg4C21J12/view?usp=sharing",
   // ↑ Replace YOUR_RESUME_FILE_ID with your actual Google Drive file ID
 
   /* ──────────────────────────────────────────
