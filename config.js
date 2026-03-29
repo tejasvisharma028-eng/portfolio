@@ -166,7 +166,7 @@ const CONFIG = {
     {
       title: "CampusSync- IIM Bodh Gaya Student Life Optimizer ",
       description: "Built a full-cycle MBA student productivity app for IIM Bodh Gaya using Agile methodology — integrating calendar management, alumni networking, attendance tracking, and course access into one unified platform.",
-      image: "",                     // Put path like "assets/proj1.jpg" or leave empty for icon
+      image: "assets/proj1.jpg",                     // Put path like "assets/proj1.jpg" or leave empty for icon
       icon: "📊",                   // Shown when no image
       tags: ["GTM", "Product Lifecycle", "Agile", "User Journey", "Kanban", "User Persona", "RICE Framework"],
       driveLink: "https://drive.google.com/file/d/1l8f-FfMYSJzsJn6xhT77_ND8JuJycZIq/view?usp=sharing",     
