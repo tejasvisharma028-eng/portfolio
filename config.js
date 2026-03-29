@@ -151,7 +151,7 @@ const CONFIG = {
 ● Built a custom Excel-based forecasting model integrating DCF, NPV, and VaR on DSCR to evaluate risk-adjusted returns.
 ● Designed a multi-factor screening model to shortlist 200 companies by credit ratings, leverage, and profitability ratios.
 ● Developed a risk-adjusted credit scorecard (AAA–B) with policy overrides to guide investment decisions at 95% confidence.`,
-      skills: ["Market Research", "Financial Modelling", "Power Point", "SQL"," SaveRisk"],
+      skills: ["Market Research", "Financial Modelling", "Power Point", "SQL", " SaveRisk"],
       certLink: "",
       certLabel: "",
     },
@@ -167,11 +167,11 @@ const CONFIG = {
       title: "CampusSync- IIM Bodh Gaya Student Life Optimizer ",
       description: "Built a full-cycle MBA student productivity app for IIM Bodh Gaya using Agile methodology — integrating calendar management, alumni networking, attendance tracking, and course access into one unified platform.",
       image: "assets/proj1.jpg",                     // Put path like "assets/proj1.jpg" or leave empty for icon
-      icon: "📊",                   // Shown when no image
+      //icon: "📊",                   // Shown when no image
       tags: ["GTM", "Product Lifecycle", "Agile", "User Journey", "Kanban", "User Persona", "RICE Framework"],
-      driveLink: "https://drive.google.com/file/d/1l8f-FfMYSJzsJn6xhT77_ND8JuJycZIq/view?usp=sharing",     
+      driveLink: "https://drive.google.com/file/d/1l8f-FfMYSJzsJn6xhT77_ND8JuJycZIq/view?usp=sharing",
       driveLinkLabel: " CampusSync Project File",                // Google Drive link for demo video / case study
-    
+
     },
     {
       title: "ShopSmart AI",
