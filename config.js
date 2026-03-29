@@ -113,7 +113,7 @@ const CONFIG = {
     {
       company: "ICICI Bank Limited",
       role: "Manager (Credit Analyst)",
-      startDate: "June 2025",
+      startDate: "Jun 2025",
       endDate: "Present",
       type: "Full-time",             // e.g. Full-time / Internship / Contract
       description: `●  Managed a ₹1,500 Cr MSME/SME portfolio of 150+ borrowers, driving financial assessments across ₹3–70 Cr exposure.
@@ -129,26 +129,29 @@ const CONFIG = {
       certLabel: "View Offer Letter",
     },
     {
-      company: "Tech Mahindra",
-      role: "Software Engineer Intern",
-      startDate: "Jan 2022",
-      endDate: "Jul 2022",
-      type: "Internship",
+      company: "Reliance Retail",
+      role: "Strategic Analyst",
+      startDate: "Jun 2024",
+      endDate: "Jul 2024",
+      type: "Internship- Live Project",
       description: `●  Performed in-depth market analysis on 100+ oral care SKUs, evaluating market dynamics, consumer trends & opportunities.
       ● Built a financial model (DCF & sensitivity analysis) and conducted cost–benefit & margin analysis, enhancing ROI by 8.5%.
       ● Developed a strategic expansion plan through primary research and Ansoff Matrix, forecasting a 5–10% market share gain.`,
       skills: ["Advance Excel", "SPSS", "Google Surveys", "Power Point", "Ansoff Matrix"],
-      certLink: "https://drive.google.com/file/d/YOUR_INTERNSHIP_CERT_ID/view?usp=sharing",
+      certLink: "https://drive.google.com/file/d/1Ngp6ZoUAT1A7K1xqvmHlDfCSdUb0l6Z-/view?usp=sharing",
       certLabel: "View Certificate",
     },
     {
-      company: "Freelance",
-      role: "Web Developer",
-      startDate: "Jun 2021",
-      endDate: "Dec 2021",
+      company: "ICICI Bank Limited",
+      role: "Research Analyst",
+      startDate: "Apr 2024",
+      endDate: "Jun 2024",
       type: "Freelance",
-      description: "Built 4 client websites using React and Node.js. Designed responsive UIs in Figma and handled client communication end-to-end. Projects ranged from portfolio sites to e-commerce stores.",
-      skills: ["React", "Node.js", "Figma", "MongoDB", "Vercel"],
+      description: `● Analyzed 500+ renewable energy companies, leveraging predictive analytics to build datasets for investment opportunities.
+● Built a custom Excel-based forecasting model integrating DCF, NPV, and VaR on DSCR to evaluate risk-adjusted returns.
+● Designed a multi-factor screening model to shortlist 200 companies by credit ratings, leverage, and profitability ratios.
+● Developed a risk-adjusted credit scorecard (AAA–B) with policy overrides to guide investment decisions at 95% confidence.`,
+      skills: ["Market Research", "Financial Modelling", "Power Point", "SQL"," SaveRisk"],
       certLink: "",
       certLabel: "",
     },
