@@ -210,7 +210,7 @@ const CONFIG = {
       description:    `● Built an end-to-end equity portfolio on NIFTY India Consumption Index using Python for data collection across 192 stocks screened on P/E, Beta, EPS, and P/B criteria.
 ● Constructed optimised portfolios using Single Index Model (C-Score) and Markowitz Model — Markowitz outperformed with 2.367% vs -2.114% returns over the same holding period.
 ● Applied APT and Fama-French Four-Factor Model for return decomposition; achieved 7.33% annualised portfolio return via multifactor model.
-● Hedged ₹1 Cr portfolio using NIFTY50 Protective Put options (25000 PE), reducing maximum downside loss from -6.17% to -5.44%,
+● Hedged ₹1 Cr portfolio using NIFTY50 Protective Put options (25000 PE), reducing maximum downside loss from -6.17% to -5.44%,`,
       image:      "📈",
   tags:           ["Python", "Financial Modelling", "Markowitz Model", "Portfolio Optimisation", "Fama-French", "Options Hedging", "PCA", "APT"],
       githubLink:     "",
