@@ -54,7 +54,7 @@ const CONFIG = {
     name: "Tejasvi Sharma",                      // Your full name in giant text
     subtitle: "Analyst · AI Adopter · Problem Solver  · Execution Oriented",
     description: "Analytical. Versatile. — I turn complex data into decisions that move the needle.",
-    resumeLink: "https://drive.google.com/file/d/YOUR_RESUME_FILE_ID/view?usp=sharing",
+    resumeLink: "https://drive.google.com/file/d/1GU_OpbKkWioJO8I-2hQDcACKg4C21J12/view?usp=sharing",
 
     // Stats shown below the CTA buttons (set to "" to hide a stat)
     stats: [
@@ -74,7 +74,7 @@ const CONFIG = {
     heading: "Hey, I'm",
     nameHighlight: "Tejasvi Sharma",             // Shown in red after "Hey, I'm"
     paragraphs: [
-      "I don't just work with data — I make it tell stories that change how organizations think and act. With an IIM MBA, a Lean Six Sigma Green Belt, and hands-on experience managing a ₹1,500 Cr portfolio at ICICI Bank, I bring rigorous analytical thinking to every problem I touch." ,
+      "I don't just work with data — I make it tell stories that change how organizations think and act. With an IIM MBA, a Lean Six Sigma Green Belt, and hands-on experience managing a ₹1,500 Cr portfolio at ICICI Bank, I bring rigorous analytical thinking to every problem I touch.",
       "My toolkit includes Python, SQL, Power BI, Tableau, Alteryx, and Advanced Excel — but my real edge is knowing when to use which tool and why.",
       "I've led teams, co-founded a venture, presided over a consulting club, and published academic work — because I believe leadership and analysis are two sides of the same coin. My mission is to build a career at the frontier of strategy and technology — where the best decisions are always data-informed, human-centered, and built to last.",
     ],
